@@ -29,9 +29,9 @@ var callerCredentials = function(body) {
    // identifier in the VoiceIt profile. It also means, the authentication is
    // bound only to this phone number.
    return  {
-     number   : body.From,
+     number   : '+919980505002',
      email    : 'prakash.rajendran@capgemini.com',
-     password : SHA256(body.From)
+     password : SHA256('Prakash$123')
    };
 };
 
