@@ -30,7 +30,7 @@ var callerCredentials = function(body) {
    // bound only to this phone number.
    return  {
      number   : body.From,
-     email    : body.From + '@twiliobioauth.com',
+     email    : 'prakash.rajendran@capgemini.com',
      password : SHA256(body.From)
    };
 };
