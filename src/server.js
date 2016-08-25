@@ -30,7 +30,7 @@ var callerCredentials = function(body) {
    // bound only to this phone number.
    return  {
      number   : '+919980505002',
-     email    : body.From + '@capgemini.com',
+     email    : 'prakashvgr@gmail.com',
      password : SHA256(body.From)
    };
 };
